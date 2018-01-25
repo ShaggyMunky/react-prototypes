@@ -15,8 +15,8 @@ class FormatTime extends Component{
             position: "relative",
             left: "50%",
             transform: "translate(-50%)",
-            width: "95%",
-            fontSize: "11vmin",
+            minWidth: "50%",
+            fontSize: "8vmax"
         }
     };
     componentWillReceiveProps(nextProps){

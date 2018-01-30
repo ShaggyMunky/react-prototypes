@@ -30,7 +30,6 @@ class ContactForm extends Component {
     handleSubmit(event){
         event.preventDefault();
         this.props.add(this.state.form);
-        console.log("handle submit:", this.state.form);
     }
     reset(){
         this.setState({
